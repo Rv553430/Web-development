@@ -1,0 +1,204 @@
+*{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.main-body{ 
+   width: 100%;
+   margin-top: 32px;
+   
+}
+
+.container{
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%,-50%);
+}
+.anima-frame{
+    
+    height: 600px;
+    width: 400px;
+    margin-right: 5%;
+    float: left;
+     background-image: url("assets/insta.webp");
+     background-size:contain;
+     background-repeat: no-repeat;
+} 
+
+@media (max-width : 540px ) {
+    .anima-frame{
+        display: none;
+    }
+
+}
+
+.login-body{
+    display: flex;
+    flex-direction: column;
+    /* alin-items: center; */
+    justify-content:center ;
+    margin-top: 30px;
+    float: right;
+    height: 500px;
+    width: 350px;
+    border:1.5px solid #c2acb0;
+}
+
+.brand-name{
+    margin-left: 80px;
+    height:60px;
+    background-image: url("assets/—Pngtree—instagram\ icon\ instagram_3584859.png");
+     background-size: contain;
+    background-repeat: no-repeat;
+}
+
+
+
+form{
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    align-items: center;
+}
+
+#input-box{
+    height: 35px;
+    width: 260px ;
+    margin: 5px;
+    border: none;
+    border: 1.5px dotted #c2acb0 ;
+    padding-left: 10px;
+    border-radius: 2px;
+    outline: none;
+}
+
+#input-box:hover{
+    outline: 1px solid #4fb4f4 ;
+}
+
+.login-btn{
+    height: 30px;
+    margin-left:10px;
+    margin-top: 10px;
+    width: 85%;
+    cursor: pointer;
+    background-color: #4fb4f4;
+    border: none;
+    border: 2px solid #4fb4f4;
+    border-radius: 8px;
+    color:#f6f2f2;
+    
+}
+
+.line-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.line{
+    
+    opacity: 0.5;
+    height: 0px;
+    width: 100px;
+    border: 0.1px dotted black;
+}
+
+.line-or{
+    opacity: 0.5;
+    font-size: small;
+    font-weight: bold;
+}
+
+.fb-btn{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    height: 30px;
+    width: 85%;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+    color:#507ea7;
+}
+
+.forgot-pass{
+    margin-top: 10px;
+    font-size: 0.8rem;
+}
+
+span a{
+    color: black;
+}
+
+.Signup-link{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   height: 20px;
+   border:1px solid #f6f2f2;
+}
+
+#sign-style{
+    margin-left: 4px;
+    font-weight: bold;
+    color: #4fb4f4;
+    
+}
+
+.get-app-container{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.get-img{
+    margin-top: 25px;
+    border-radius: 4px;
+    height: 40px;
+    width: 130px;
+    object-fit: cover;
+}
+
+.footer-container{
+    width: 100%;
+    position: absolute;
+    bottom: 10px;
+
+}
+
+.insta-detail{
+    text-align: center;
+    overflow: hidden;
+    padding: 3px;
+}
+
+@media (max-height:668px)
+{
+    .insta-detail{
+        display: none;
+    }
+}
+
+footer div div span{
+    opacity: 0.7;
+    padding: 8px;
+    font-size: small;
+    font-weight: lighter;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+
+
+
+#lang1{
+    font-size: small;
+    border: none;
+    opacity: 0.7;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
