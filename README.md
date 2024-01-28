@@ -1,2 +1,2 @@
 # Web-development
-this is the web development related projects 
+web development related projects 
