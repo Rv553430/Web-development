@@ -22,8 +22,8 @@
                 </div>
                 <form action="submit" class="form-custom">
                     <input class="input-box" id="valid" type="text" required=""  placeholder="Phone number email or username">
-                    <input class="input-box" id="msg" type="password" required=""  placeholder="Password">
-                    <button class="login-btn" type="submit" disabled="true">Log in</button >
+                    <input class="input-box" id="msg"  type="password" required=""  placeholder="Password" oninput="passlen()">
+                    <button id="submitbtn" class="login-btn" type="submit" disabled="true">Log in</button >
                     <div class="line-container">
                         <div class="line" style="margin-right: 10px;"></div>
                         <div class="line-or">OR</div>
@@ -78,7 +78,7 @@
             </div>
         </footer>
     </div>
-    <script src="app.js"></script>
+    <script src="app.js" defer></script>
 </body>
 
 </html>
