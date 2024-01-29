@@ -62,7 +62,7 @@ form{
     align-items: center;
 }
 
-#input-box{
+.input-box{
     height: 35px;
     width: 260px ;
     margin: 5px;
@@ -73,7 +73,7 @@ form{
     outline: none;
 }
 
-#input-box:hover{
+.input-box:hover{
     outline: 1px solid #4fb4f4 ;
 }
 
